@@ -17,6 +17,7 @@ body {
     font-family: 'poppins',sans-serif;
     background-color: var(--bg);
     color: #fff;
+    min-height: 2000px;
 }
 
 .navbar {
@@ -81,6 +82,18 @@ body {
     display: none;
 }
 
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image:url('/Img/Coffeee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* Media Query */
 
 /* Laptop */
@@ -131,6 +144,8 @@ body {
         transform: scaleX(0.2);
     }
 }
+
+
 
 
 /* Mobile Phone */

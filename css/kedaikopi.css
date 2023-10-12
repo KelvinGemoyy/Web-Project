@@ -235,6 +235,29 @@ body {
     .navbar .navbar-nav:hover::hover {
         transform: scaleX(0.2);
     }
+
+    .about .row {
+        flex-wrap:wrap;
+    }
+
+    .about .row .about-img img {
+        height: 24rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .about .row .content {
+        padding: 0;
+    }
+
+    .about .row .content h3 {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .about .row .content p {
+        font-size: 1.6rem;
+    }
 }
 
 

@@ -156,6 +156,36 @@ body {
     color: var(--primary);
 }
 
+.about .row {
+    display: flex;
+}
+
+.about .row .about-img {
+    flex:1 1 45rem;
+}
+
+.about .row .about-img img {
+    width: 100%;
+}
+
+.about .row .content {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.about .row .content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+
 /* Media Query */
 
 /* Laptop */

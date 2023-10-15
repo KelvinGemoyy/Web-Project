@@ -235,7 +235,7 @@ body {
     display: flex;
     margin-top: 2rem;
     background-color: #222;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .contact .row .map {
@@ -243,6 +243,36 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
+.contact .row form {
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form .input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: var(--bg);
+    border: 1px solid #eee;
+    padding: 2rem;
+}
+
+.contact .row form .input-group input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    background:none ;
+    color: #fff;
+}
+
+
+
+
+
+
+
 
 
 

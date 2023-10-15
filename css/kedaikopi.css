@@ -17,7 +17,7 @@ body {
     font-family: 'poppins',sans-serif;
     background-color: var(--bg);
     color: #fff;
-    min-height: 3000px;
+    min-height: 5000px;
 }
 
 .navbar {
@@ -231,7 +231,19 @@ body {
 }
 
 /* Contact Section */
+.contact .row {
+    display: flex;
+    margin-top: 2rem;
+    background-color: #222;
+    flex-wrap: wrap;
+}
 
+.contact .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+    
+}
 
 
 

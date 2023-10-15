@@ -201,6 +201,31 @@ body {
     line-height: 1.6;
 }
 
+.menu .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+
+}
+
+.menu .row .menu-card {
+    text-align: center;
+}
+
+.menu .row .menu-card img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+.menu .row .menu-card .menu-card-title
+{
+    margin-top: 1.5rem auto 1rem;
+
+}
+
+
+
 
 /* Media Query */
 

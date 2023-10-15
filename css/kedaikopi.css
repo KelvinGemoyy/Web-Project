@@ -300,6 +300,10 @@ body {
     .about .row .content p {
         font-size: 1.6rem;
     }
+
+    .menu p {
+        font-size: 1.2rem;
+    }
 }
 
 

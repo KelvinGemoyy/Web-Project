@@ -15,9 +15,7 @@ document.addEventListener('click', function (e) {
     }
 });
 
-const myCrush = ['Thirza',17,'1 SMA'];
 
-console.log(myCrush);
 
 
 

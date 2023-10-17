@@ -406,8 +406,13 @@ footer .credit a {
         transform-origin:0 0 ;
     }
 
-    .navbar .navbar-nav:hover::hover {
+    .navbar .navbar-nav:hover::after {
         transform: scaleX(0.2);
+    }
+
+    .navbar .search-form {
+        width: 90%;
+        right: 2rem;
     }
 
     .about .row {

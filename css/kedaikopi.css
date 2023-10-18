@@ -181,12 +181,14 @@ body {
 /* About Section */
 .about ,
 .menu,
+.products,
 .contact {
     padding: 10rem 7% 1.4rem;
 }
 
 .about h2 ,
 .menu h2,
+.products h2,
 .contact h2 {
     text-align: center;
     font-size: 2.6em;
@@ -195,6 +197,7 @@ body {
 
 .about h2 span,
 .menu h2 span,
+.products h2 span,
 .contact h2 span {
     color: var(--primary);
 }

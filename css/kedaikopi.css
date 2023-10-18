@@ -307,7 +307,13 @@ body {
     border: 1px solid var(--primary);
 }
 
+.products .product-image{
+   padding: 1rem 0;
+}
 
+.products .product-image img {
+    height: 25rem;
+}
 
 /* Contact Section */
 .contact .row {

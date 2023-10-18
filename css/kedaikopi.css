@@ -278,7 +278,7 @@ body {
     margin-top: 4rem;
 }
 
-.product .product-card {
+.products .product-card {
     text-align: center;
     border: 1px solid #666;
     padding: 2rem;
@@ -322,8 +322,26 @@ body {
 .products .product-stars {
     font-size: 1.7rem;
     padding: 0.8rem;
+    color: yellow;
+    /* color: var(--primary); */
+    /* fill: var(--primary); */
 }
 
+.products .product-stars .star-full {
+    /* fill: var(--primary); */
+    fill: yellow;
+}
+
+ .products .product-price {
+     font-size: 1.3rem;
+     font-weight: bold;
+    }
+    
+ .products .product-price span {
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1rem;
+ }
 /* Contact Section */
 .contact .row {
     display: flex;

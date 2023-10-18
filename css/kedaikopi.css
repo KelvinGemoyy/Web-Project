@@ -315,6 +315,15 @@ body {
     height: 25rem;
 }
 
+.products .product-content h3 {
+    font-size: 2rem;
+}
+
+.products .product-stars {
+    font-size: 1.7rem;
+    padding: 0.8rem;
+}
+
 /* Contact Section */
 .contact .row {
     display: flex;

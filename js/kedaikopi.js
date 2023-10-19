@@ -43,6 +43,16 @@ document.addEventListener('click', function (e) {
     }
 });
 
+// Modal Box
+const itemDetailModal = document.querySelector('#item-detail-modal');
+const itemDetailButton = document.querySelector('.item-detail-button');
+
+itemDetailButton.onClick = (e) =>  {
+    itemDetailButton.style.display = 'flex';
+    e.preventDefault();
+}
+
+
 
 
 

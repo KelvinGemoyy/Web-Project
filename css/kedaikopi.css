@@ -492,7 +492,7 @@ footer .credit a {
 /* Modal Box */
 /* Item Detail */
 .modal {
-    display: flex;
+    display: none;
     position: fixed;
     z-index: 9999;
     left: 0;
@@ -639,6 +639,10 @@ footer .credit a {
 
     .contact .row form {
         padding-top: 0;
+    }
+
+    .modal-content {
+        flex-wrap: wrap;
     }
 }
 
